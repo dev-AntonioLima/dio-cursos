@@ -12,10 +12,20 @@ console.log(frase.replace("BRASIL","Japão"));
 
 
 var list = ["maça", "pera", "laranja"];
-//Remover elemente da array.
+//Remover elemento da array.
 list.pop();
+
 //Adicionar elemeto a array.
 list.push("uva");
 
+//Exibir número de elementos.
+console.log(list.length);
 
-console.log(list);
+//Exibe elementos em ordem contrária.
+console.log(list.reverse());
+
+//Exibe os valores como String.
+console.log(list.toString());
+
+//Exibe os valores como String, porém, com possibilidade de alteração.
+console.log(list.join("|"));
