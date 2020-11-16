@@ -9,3 +9,6 @@ console.log(nome);
 console.log(idade+idade2);
 console.log(frase.replace("BRASIL","Japão"));
 
+var list = ["maça", "pera", "laranja"];
+
+console.log(list);
