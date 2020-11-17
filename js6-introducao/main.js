@@ -2,6 +2,7 @@ var nome = "Antonio Lima";
 var idade = 21;
 var idade2 = 10;
 var frase = "BRASIL";
+var frutas =[{nome:"maça", cor:"vermelha"}, {nome: "uva", cor:"roxa"}]
 
 
 //alert(idade + idade2);
@@ -29,3 +30,8 @@ console.log(list.toString());
 
 //Exibe os valores como String, porém, com possibilidade de alteração.
 console.log(list.join("|"));
+
+console.log(frutas);
+
+//exive valor da variável frutas referente ao elemento.
+alert(frutas[1].cor);
