@@ -44,4 +44,10 @@ if (idade >=18){
 else{
     alert("Menor de idade");
 }
-}
+
+//Estrutura de Repetição While//
+var count = 0;
+while (count <=5){
+   console.log(count);
+    count = count +1;
+};
