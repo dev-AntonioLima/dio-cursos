@@ -51,3 +51,17 @@ while (count <=5){
    console.log(count);
     count = count +1;
 };
+
+//Funções//
+
+function soma(n1,n2){
+    return n1+ n2;
+}
+
+alert(soma(5,10));
+
+function setReplace(frase, novo_nome){
+    frase.replace(nome, novo_nome)
+}
+
+alert(setReplace("Vai Japão", "Japão", "Brasil"));
